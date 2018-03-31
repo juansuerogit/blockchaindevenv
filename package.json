@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/juansuerogit/blockchaindevenv/issues"
   },
-  "homepage": "https://github.com/juansuerogit/blockchaindevenv#readme"
+  "homepage": "https://github.com/juansuerogit/blockchaindevenv#readme",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "truffle-contract": "^3.0.4"
+  }
 }
