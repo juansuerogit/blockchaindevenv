@@ -1,0 +1,19 @@
+{
+  "name": "blockchaindevenv",
+  "version": "1.0.0",
+  "description": "blockchain development environment to speed up brand new projects , nodejs, npm, typescript, webpack, react, truffle, solidity, web3.js, express, ganache,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansuerogit/blockchaindevenv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juansuerogit/blockchaindevenv/issues"
+  },
+  "homepage": "https://github.com/juansuerogit/blockchaindevenv#readme"
+}
