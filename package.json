@@ -4,7 +4,15 @@
   "description": "blockchain development environment to speed up brand new projects , nodejs, npm, typescript, webpack, react, truffle, solidity, web3.js, express, ganache,",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tc": "npm run truffle-compile",
+    "tmg": "npm run truffle-migrate-ganachecli",
+    "tcmg": "npm run truffle-compile-migrate-ganachecli",
+    "tcg": "npm run truffle-console-ganachecli",
+    "truffle-compile": "truffle compile",
+    "truffle-migrate-ganachecli": "truffle migrate --network ganachecli",
+    "truffle-compile-migrate-ganachecli": "npm-run-all  security-check truffle-compile truffle-migrate-ganachecli",
+    "truffle-console-ganachecli": "truffle console --network ganachecli",
+    "security-check": "nsp check"
   },
   "repository": {
     "type": "git",
@@ -18,6 +26,8 @@
   "homepage": "https://github.com/juansuerogit/blockchaindevenv#readme",
   "devDependencies": {
     "babel-register": "^6.26.0",
-    "truffle-contract": "^3.0.4"
+    "npm-run-all": "^4.1.2",
+    "nsp": "^3.2.1",
+    "truffle-contract": "^3.0.4" 
   }
 }
