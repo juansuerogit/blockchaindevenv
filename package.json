@@ -4,14 +4,25 @@
   "description": "blockchain development environment to speed up brand new projects , nodejs, npm, typescript, webpack, react, truffle, solidity, web3.js, express, ganache,",
   "main": "index.js",
   "scripts": {
+    "GANACHE SHORTCUTS": "----------------------------------------------------------------------------------------",
     "tc": "npm run truffle-compile",
     "tmg": "npm run truffle-migrate-ganachecli",
     "tcmg": "npm run truffle-compile-migrate-ganachecli",
+    "AZURE SHORTCUTS": "----------------------------------------------------------------------------------------",
     "tcg": "npm run truffle-console-ganachecli",
+    "tma": "npm run truffle-migrate-azure",
+    "tcma": "npm run truffle-compile-migrate-azure",
+    "tca": "npm run truffle-console-azure",
+    "GANACHE CMDS": "----------------------------------------------------------------------------------------",
     "truffle-compile": "truffle compile",
     "truffle-migrate-ganachecli": "truffle migrate --network ganachecli",
     "truffle-compile-migrate-ganachecli": "npm-run-all  security-check truffle-compile truffle-migrate-ganachecli",
     "truffle-console-ganachecli": "truffle console --network ganachecli",
+    "AZURE CMDS": "----------------------------------------------------------------------------------------",
+    "truffle-migrate-azure": "truffle migrate --network azure",
+    "truffle-compile-migrate-azure": "npm-run-all  security-check truffle-compile truffle-migrate-azure",
+    "truffle-console-azure": "truffle console --network azure",
+    "UTILITY CMDS": "----------------------------------------------------------------------------------------",
     "security-check": "nsp check"
   },
   "repository": {
@@ -28,6 +39,6 @@
     "babel-register": "^6.26.0",
     "npm-run-all": "^4.1.2",
     "nsp": "^3.2.1",
-    "truffle-contract": "^3.0.4" 
+    "truffle-contract": "^3.0.4"
   }
 }

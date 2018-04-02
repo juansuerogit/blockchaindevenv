@@ -7,13 +7,13 @@ module.exports = {
     ganachegui: {
       gas: 500,
       host: "localhost",
-      port: 7545,
+      port: 6545,
       network_id: "*"
     },
     ganachecli: {
       gas: 4712388,
       host: "localhost",
-      port: 8545,
+      port: 7545,
       network_id: "*"
     },
     mainnet: {
