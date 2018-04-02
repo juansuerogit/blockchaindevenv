@@ -1,4 +1,4 @@
-pragma solidity ^0.4.21;
+pragma solidity ^0.4.19;
 
 contract ScoreStore {
     mapping (string=>int) PersonScores;
